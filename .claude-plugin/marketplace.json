@@ -1,0 +1,12 @@
+{
+  "name": "physiokeys",
+  "owner": { "name": "PhysioKeys", "url": "https://www.physiokeys.com/" },
+  "description": "The PhysioKeys plugin for Claude: rehabilitation research search, citations and guided evidence workflows.",
+  "plugins": [
+    {
+      "name": "physiokeys",
+      "source": "./",
+      "description": "PhysioKeys rehabilitation research search, citations, Research Library and guided evidence workflows."
+    }
+  ]
+}

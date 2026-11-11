@@ -1,0 +1,10 @@
+{
+  "name": "physiokeys",
+  "displayName": "PhysioKeys",
+  "version": "1.0.0",
+  "description": "Find, read and cite published physical therapy, physiotherapy and rehabilitation research with your PhysioKeys account: evidence briefs, intervention comparisons, journal-club paper appraisals and your saved Research Library.",
+  "author": { "name": "PhysioKeys", "url": "https://www.physiokeys.com/" },
+  "homepage": "https://www.physiokeys.com/",
+  "license": "MIT",
+  "keywords": ["physiotherapy", "physical therapy", "rehabilitation", "research", "evidence", "citations"]
+}

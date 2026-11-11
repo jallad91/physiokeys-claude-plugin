@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "physiokeys": {
+      "type": "http",
+      "url": "https://app.physiokeys.com/api/mcp"
+    }
+  }
+}
