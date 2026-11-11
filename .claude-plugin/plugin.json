@@ -6,6 +6,10 @@
   "author": { "name": "PhysioKeys", "url": "https://www.physiokeys.com/" },
   "homepage": "https://www.physiokeys.com/",
   "privacyPolicyUrl": "https://www.physiokeys.com/privacy-policy/",
+  "termsOfServiceUrl": "https://www.physiokeys.com/terms-of-service/",
+  "supportUrl": "https://www.physiokeys.com/contact/",
+  "documentationUrl": "https://github.com/jallad91/physiokeys-claude-plugin#readme",
+  "repository": "https://github.com/jallad91/physiokeys-claude-plugin",
   "license": "MIT",
   "keywords": ["physiotherapy", "physical therapy", "rehabilitation", "research", "evidence", "citations"]
 }
