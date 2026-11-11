@@ -31,6 +31,11 @@ Each research search, and each further page of results, uses one search from you
 
 ## Data
 
-The plugin itself stores nothing and contains no code. Claude sends your research queries, article IDs and save requests to your PhysioKeys account at `https://app.physiokeys.com/api/mcp`, signed in through PhysioKeys. Do not include patient names, dates of birth, record numbers or other identifiers; the skills refuse to send them. PhysioKeys is for general research and education, not individual diagnosis or treatment plans.
+The plugin itself stores nothing and contains no code. Do not include patient names, dates of birth, record numbers or other identifiers; the skills refuse to send them. PhysioKeys is for general research and education, not individual diagnosis or treatment plans.
+
+What is sent where:
+
+- **PhysioKeys** (`https://app.physiokeys.com/api/mcp`, signed in with your PhysioKeys account): research queries, article IDs and save requests. PhysioKeys reads your saved-paper list and plan allowance, stores papers you choose to save and a usage record for each search, and keeps them until you remove them or delete your account. Its tool-usage records contain no query text or results.
+- **Public article websites**, only when PhysioKeys has just an abstract and Claude's web access is turned on: the skills let Claude open a public copy of that exact paper (its publisher page, PubMed Central, or an author or institutional repository), looked up by the paper's DOI, PMID or title only, at most 3 attempts per paper and 6 per task. Nothing from your conversation, library or account is sent to these sites.
 
 Privacy policy: https://www.physiokeys.com/privacy-policy/ · Terms of service: https://www.physiokeys.com/terms-of-service/
